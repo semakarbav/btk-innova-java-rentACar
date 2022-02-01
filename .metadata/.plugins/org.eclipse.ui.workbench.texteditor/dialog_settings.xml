@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="@OneToOne"/>
+		<list key="findhistory">
+			<item value="@OneToOne"/>
+			<item value="private Result checkIfRentalIsExists(int rentalId) {"/>
+			<item value="checkIfIndividualCustomerEnoughFindexScore(individualCustomerService.getById("/>
+			<item value=" @GetMapping(&quot;getAllByPage&quot;)"/>
+			<item value="Result result=BusinessRules.run();"/>
+			<item value="Result result=BusinessRules.run(checkIfBrandNameExists(createBrandRequest.getName()),"/>
+		</list>
+	</section>
+</section>

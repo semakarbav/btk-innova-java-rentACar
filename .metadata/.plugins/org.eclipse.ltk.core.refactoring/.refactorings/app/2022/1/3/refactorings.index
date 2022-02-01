@@ -1,0 +1,56 @@
+1641889259600	Move compilation unit
+1641889281443	Delete element
+1641893031366	Rename type 'DataSuccessResult'
+1641987690565	Rename type 'UserDao'
+1641988126991	Rename type 'CorporateCustomerDao'
+1641988159619	Rename type 'CorporateCustomerListDto'
+1641988198917	Rename type 'CorporateCustomerService'
+1641988235997	Rename type 'UserService'
+1641988253852	Rename type 'UserDao'
+1641988278717	Rename type 'UserListDto'
+1642017737333	Rename type 'IndividualService'
+1642017757593	Rename type 'IndividualManager'
+1642017774823	Rename type 'IndividualListDto'
+1642017834943	Move compilation unit
+1642021916093	Rename type 'UpdateColorResult'
+1642054165581	Rename type 'CusromerService'
+1642056606064	Rename package 'com.btkAkademi.rentACar.business.requests.MaintenanceCarRequest'
+1642064791923	Rename type 'CreateMaintenanceCarReequest'
+1642066574953	Rename type 'updateCarRequest'
+1642068059754	Copy package
+1642068072995	Move compilation unit
+1642068076991	Delete element
+1642068142920	Rename package 'com.btkAkademi.rentACar.business.requests.customerRequest.corporateCustomerRequests'
+1642068169595	Copy package
+1642068184120	Copy package
+1642068241607	Delete element
+1642068251355	Delete element
+1642068280411	Rename package 'com.btkAkademi.rentACar.business.requests.customer.Request.corporateCustomerRequests.copy'
+1642068286897	Delete element
+1642071600534	Rename type 'DamageCarRequest'
+1642071611875	Rename type 'CreatedamageCarRequest'
+1642071762350	Rename type 'DamegeCarListDto'
+1642072980204	Rename type 'DamageCar'
+1642082533003	Rename method 'CheckIfControlKilometer'
+1642109076414	Rename type 'AdditionalServiceService'
+1642143678916	Delete element
+1642158271832	Delete element
+1642158429962	Rename package 'com.btkAkademi.rentACar.adapter'
+1642158484135	Rename package 'com.btkAkademi.rentACar.yyBankService'
+1642158763564	Copy package
+1642158773244	Delete element
+1642158804816	Delete element
+1642158817875	Delete element
+1642158864924	Delete element
+1642158889778	Delete element
+1642158953453	Delete element
+1642159501911	Rename type 'IsBankService'
+1642159561518	Rename type 'BankService'
+1642159873746	Delete element
+1642159881326	Delete element
+1642323812950	Delete element
+1642326370598	Rename type 'Rental'
+1642326379706	Rename type 'Payment'
+1642328682715	Rename type 'Rental2'
+1642328694803	Rename type 'Payment2'
+1642340323639	Rename type 'AdditionalServiceDto'

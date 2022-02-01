@@ -1,0 +1,81 @@
+package com.btkAkademi.rentACar.ws.controllers;
+
+import java.util.List;
+
+import javax.validation.Valid;
+
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.btkAkademi.rentACar.business.abstracts.CarService;
+import com.btkAkademi.rentACar.business.dtos.CarListDto;
+import com.btkAkademi.rentACar.business.requests.carRequests.CreateCarRequest;
+import com.btkAkademi.rentACar.business.requests.carRequests.UpdateCarRequest;
+import com.btkAkademi.rentACar.core.utilities.results.DataResult;
+import com.btkAkademi.rentACar.core.utilities.results.Result;
+
+
+@RestController
+@RequestMapping("/api/cars")
+@CrossOrigin
+public class CarsController {
+	private CarService carService;
+
+	public CarsController(CarService carService) {
+		super();
+		this.carService = carService;
+	}
+	@GetMapping("getall")
+	public DataResult<List<CarListDto>> getall(){
+		return  this.carService.getall();
+		
+		
+	}
+	@GetMapping("getallRentalStateFalse")
+	public DataResult<List<CarListDto>> getallRentalStateFalse(){
+		return  this.carService.getAllRentalStateFalse();
+		
+		
+	}
+	@GetMapping("getCarByColorId")
+	public DataResult<List<CarListDto>> getCarByColorId(int colorId){
+		return this.carService.getCarByColorId(colorId);
+		
+	}
+	@GetMapping("getCarByBrandId")
+	public DataResult<List<CarListDto>> getCarByBrandId(int brandId){
+		return this.carService.getCarByBrandId(brandId);
+		
+	}
+	@GetMapping("getCarById")
+	public DataResult<CarListDto>getCarById(int carId){
+		return this.carService.getByCarId(carId);
+		
+	}
+
+    @PostMapping("add")
+    public Result add(@RequestBody @Valid CreateCarRequest createCarRequest){
+        return this.carService.add(createCarRequest);
+    }
+
+    @PutMapping("update")
+    public Result update(@RequestBody UpdateCarRequest updateCarRequest){
+        System.out.println(updateCarRequest.getId());
+        return this.carService.update(updateCarRequest);
+    }
+    /*@GetMapping("getAllByPage")
+	public DataResult<List<CarListDto>> getall(int pageNo,int pageSize){
+		return  this.carService.getall(pageNo,pageSize);	
+		
+	}
+    @GetMapping("getAllDesc")
+   	public DataResult<List<CarListDto>>getallSorted(){
+   		return  this.carService.getallSorted();	
+   		
+   	}*/
+}

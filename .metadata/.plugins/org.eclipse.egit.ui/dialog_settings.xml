@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="true"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\GLLPC\git\repository\.git">
+			<item value="false"/>
+			<item value="karbavsema &lt;Sema@mindtechltd.co.uk&gt;"/>
+			<item value="java rent a car"/>
+			<item value="karbavsema &lt;Sema@mindtechltd.co.uk&gt;"/>
+			<item value="0000000000000000000000000000000000000000"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+		<list key="C:\Users\GLLPC\git\Btk-Innova-Project\.git">
+			<item value="false"/>
+			<item value="semakarbav &lt;semakarbav06@gmail.com&gt;"/>
+			<item value="rentacar&#x0D;&#x0A;&#x0D;&#x0A;Signed-off-by: semakarbav &lt;semakarbav06@gmail.com&gt;"/>
+			<item value="semakarbav &lt;semakarbav06@gmail.com&gt;"/>
+			<item value="0000000000000000000000000000000000000000"/>
+			<item value="0"/>
+			<item value="true"/>
+		</list>
+	</section>
+</section>
